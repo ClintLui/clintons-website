@@ -1,0 +1,16 @@
+.container-block {
+  width: 85vw;
+  border-radius: 16px;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  transition: transform 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.container-block:hover {
+  transform: scale(1.01)
+}
